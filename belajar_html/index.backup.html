@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Black goese bistro | Pizza-on-Demand</h1>
+    <p>
+        our 12&quet; wood-fired pizzas are
+        available for delivery
+    </p>
+    <form action="http://www.blackgoosebistro.com/pizza.php" method="post">
+        <fieldset>
+            <legend>Your information</legend>
+            <p>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </p>
+            <p>
+                <label for="address">address: </label>
+                <input type="text" id="address" name="address">
+            </p>
+            <p>
+                <label for="phone">Phone: </label>
+                <input type="tel" id="phone" name="phone">
+            </p>    
+            <p>
+                <label for="email">Email </label>
+                <input type="email" id="email" name="email">
+            </p>
+            <p>
+                <label for="intructions">delivery intructions: </label><br>
+                <textarea name="intructions" id="intructions" rows="4" cols="50" maxlength="400" placeholder="no more than 400 characters"></textarea>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>design your dream pizza</legend>
+            <p>
+                <label for="size">Size: </label>
+                <p>pizza specs</p>
+                <p>pilih 1:</p>
+                <p>
+                    <input type="radio" name="crust" id="classic" value="Classic white" required>
+                    <label for="Classic">Classic white</label><br>
+                    
+                    <input type="radio" name="crust" id="classic" value="Classic white" required>
+                    <label for="Classic">Multigrain</label><br>
+
+                    <input type="radio" name="crust" id="classic" value="Classic white" required>
+                    <label for="Classic">cheese</label><br>
+
+                    <input type="radio" name="crust" id="classic" value="Classic white" required>
+                    <label for="Classic">glutee</label><br>
+
+                    <input type="radio" name="crust" id="classic" value="Classic white" required>
+                    <label for="Classic">Mushroom</label><br>
+
+                    <input type="radio" name="crust" id="classic" value="Classic white" required>
+                    <label for="Classic">Mozarela</label><br>
+
+                    <input type="radio" name="crust" id="classic" value="Classic white" required>
+                    <label for="Classic">Soysoce</label><br>
+
+                    <input type="radio" name="crust" id="classic" value="Classic white" required>
+                    <label for="Classic">Meat</label><br>
+
+                    <input type="radio" name="crust" id="classic" value="Classic white" required>
+                    <label for="Classic">tomato</label><br>
+                </p>
+            </p>
+            <p>
+                <label for="quantity">Quantity: </label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="submit">
+            <input type="reset" value="resext">
+            
+        </p>
+    </form>
+</body>
+</html>
