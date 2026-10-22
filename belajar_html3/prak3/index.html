@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Profile</title>
+    <style>
+        .profil-container {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin: 40px;
+        }
+
+        img {
+            width: 200px; height: 200px;
+            object-fit: cover;
+        }
+
+        fieldset {
+            border-color: black;
+        }
+
+        .word {
+            flex: 1;
+            padding: 15px;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Informasi Pribadi</legend>
+        <div class="profil-container"> <!-- Foto + Data Diri -->
+            <div> <!-- Foto -->
+                <img src="foto.jpg" alt="Foto Profil">
+            </div>
+            <div class="data-diri"> <!-- Data Diri -->
+                <h1>Profil Nama</h1>
+                <p>Jl. Abdul Halim</p>
+                <p>Bekasi, Pondok Gede</p>
+                <p>Indonesia, Jawa Barat</p>
+                <p>Email: aufadzwicaksono@gmail.com</p>
+                <p>Telephone: +62 899 9222 484</p>
+            </div>
+            <aside class="word">
+                <h1>About Me</h1>
+                <p>Aufa Dzaky Zuhdi Wicaksono</p>
+                <p>Laki-laki</p>
+                <p>18 Tahun</p>
+                <p>Mahasiswa - STT Terpadu Nurul Fikri</p>
+                <p></p>
+            </aside>
+        </div>
+        <div> <!-- About Me -->
+            <p>
+            nama saya Aufa
+            </p>
+        </div>
+    </fieldset>
+</body>
+</html>
