@@ -1,0 +1,25 @@
+- generic [active] [ref=f6e1]:
+  - iframe [ref=f6e2]:
+    - generic [ref=f7e1]:
+      - heading "Belajar HTML" [level=1] [ref=f7e2]
+      - link [ref=f7e3] [cursor=pointer]:
+        - /url: https://www.google.com
+        - img "Google" [ref=f7e4]
+      - list [ref=f7e5]:
+        - listitem [ref=f7e6]:
+          - link "latihan html 1" [ref=f7e7] [cursor=pointer]:
+            - /url: belajar_html1/
+        - listitem [ref=f7e8]:
+          - link "latihan html 2" [ref=f7e9] [cursor=pointer]:
+            - /url: belajar_html2/
+        - listitem [ref=f7e10]:
+          - link "latihan html 3" [ref=f7e11] [cursor=pointer]:
+            - /url: belajar_html3/
+        - listitem [ref=f7e12]:
+          - link "latihan html 4" [ref=f7e13] [cursor=pointer]:
+            - /url: belajar_html4/
+        - listitem [ref=f7e14]:
+          - link "latihan html 5" [ref=f7e15] [cursor=pointer]:
+            - /url: belajar_html5/
+  - iframe [ref=f6e3]:
+    - heading "main" [level=1] [ref=f8e2]
