@@ -20,12 +20,59 @@
 
         fieldset {
             border-color: black;
+            padding: 50px;
+            margin: 300px;
         }
 
         .word {
             flex: 1;
             padding: 15px;
             text-align: right;
+        }
+        .text{
+            text-align: justify;
+            padding: 15px;
+            margin: 15px;            
+        }
+        .media-container {
+            display: flex;
+            gap: 20px;
+            margin: 15px;
+            align-items: flex-start;
+        }
+        .media-container video {
+            width: 40%;
+            height: auto;
+        }
+        .grup-foto {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            flex: 1;
+        }
+        .grup-foto img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        .attachments {
+            border: 1px solid #000;
+            padding: 10px 15px;
+            margin: 15px;
+            display: inline-block;
+            min-width: 200px;
+        }
+        .attachments h4 {
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+        .attachments a {
+            display: block;
+            color: blue;
+            font-size: 0.85rem;
+            margin-bottom: 4px;
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -54,10 +101,25 @@
                 <p></p>
             </aside>
         </div>
-        <div> <!-- About Me -->
-            <p>
-            saya perkenalkan diri saya, Nama saya Aufa Dzaky Zuhdi Wicaksono, saya seorang mahasiswa di STT Terpadu Nurul Fikri, saya memilih Jurusan Tekni Informatika (TI).
-            </p>
+        <div class="text"> <!-- About Me -->
+            <p>saya perkenalkan diri saya, Nama saya Aufa Dzaky Zuhdi Wicaksono, saya seorang mahasiswa di STT Terpadu Nurul Fikri, saya memilih Jurusan Tekni Informatika (TI). Saya tinggal di Pondok Gede, Bekasi. Sebelum kuliah saya lulusan SMKS Laboratorium jurusan RPL (Rekayasa Perangkat Lunak), jadi dari SMK sudah mulai kenal dunia coding.</p>
+            <p>Saya suka hal-hal soal software engineering, web development, dan game development, dan cita-cita saya masuk ke dunia game dev. Saya juga pernah magang sebagai IT Support di PT. Brilian Consulting, yang bikin saya lebih paham kerja di lapangan. Sekarang saya masih terus belajar dan ngoprek, dan kodenya saya taruh di GitHub (github.com/dastian95).</p>
+        </div>
+        <div class="media-container">
+            <video src="../asset/0423(3) (1).mp4" type="video/mp4" controls></video>
+            <div class="grup-foto">
+                <img src="../asset/Screenshot_2025-12-01-07-46-01-122-edit_com.whatsapp.jpg" alt="foto 1">
+                <img src="../asset/1777852114469.png" alt="foto 2">
+                <img src="../asset/IMG_20250731_150020.jpg" alt="foto 3">
+                <img src="../asset/1000078155.jpg" alt="foto 4">
+            </div>
+            <div class="attachments">
+                <h4>Attachments</h4>
+                <a href="https://code.visualstudio.com/download" target="_blank" rel="noopener">Visual Studio Code</a>
+                <a href="https://www.apachefriends.org/download.html" target="_blank" rel="noopener">XAMPP</a>
+                <a href="https://git-scm.com/downloads" target="_blank" rel="noopener">Git</a>
+                <a href="https://www.python.org/downloads/" target="_blank" rel="noopener">Python</a>
+            </div>
         </div>
     </fieldset>
 </body>
